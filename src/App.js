@@ -31,7 +31,7 @@ export default function App() {
       {state.matches("resolved") && <p>Promise Resolved</p>}
       <div>
         {/** You can send events to the running service */}
-        <button onClick={() => send("RESOLVE")}>Resolve</button>
+        <button onClick={() => send("RESOLVE")}>Test</button>
         <button onClick={() => send("REJECT")}>Reject</button>
       </div>
     </div>
